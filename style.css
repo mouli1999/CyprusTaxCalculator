@@ -1,0 +1,42 @@
+.header{
+    text-align:left;
+    font-size: 25px;
+   size-adjust:inherit;
+   background-color: rgb(6, 101, 226);
+   margin-inline: 1in;
+   height: 80px;
+   color: antiquewhite;
+}
+.logo{
+    display:inline-block;
+    vertical-align: middle;
+    size-adjust: 10%;
+    height:0.8in;
+    width: 1in;
+    padding-top: 3px;
+}
+.choose-time{
+    display:inline-flex;
+    margin-left: .3in;
+    padding-top: 25px;
+    font-style: italic;
+
+}
+.salarycontainer{
+    padding-left: 15px;
+    padding-top: 15px;
+    box-sizing:border-box;
+}
+.choose-annual{
+    font-size: 30px;
+    font-style: italic;
+}
+.salary-input{
+    background-color: rgb(90, 210, 231);
+    height:1.5in;
+    margin-left: 1in;
+    margin-right: 5in;
+}
+.help-center{
+    display: inline-flex;
+}
