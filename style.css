@@ -36,6 +36,12 @@
     height:1.5in;
     margin-left: 1in;
     margin-right: 5in;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+   
+
 }
 .help-center{
     display: inline-flex;
