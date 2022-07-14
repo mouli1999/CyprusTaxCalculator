@@ -24,19 +24,65 @@
         <br>
         salary
      </div>
-     <div class="salarycontainer">
-        <input type="text" placeholder="e.g.-20000">
+     <div id= "values" class="salarycontainer">
+        <input type="text" placeholder="e.g.20000">
      </div>
-    </div>
-    </div>
+  </div> 
     <div class="help-center">
         <div class="get-help">
             <h2>CyprusTaxCalculator?</h2>
-            <p>This tool lets you calculate how much tax and social insurance contributions are deducted from your salary when working in Cyprus. Enter your monthly or annual gross salary and the rest is done automatically.</p>
-
+            <p>This tool lets you calculate how much tax and social insurance
+             contributions are deducted from your salary when working in Cyprus.
+             Enter your monthly or annual gross salary and the rest is done automatically.</p>
+            <p>Disclaimer: This tool should only be used as a guide to what deductions
+             to expect. Even though we try to make sure that all the values used in the
+              calculation are up to date we cannot guarantee its validity and we shall
+         not be held responsible for any mistakes or problems that arise with the use of this tool.</p>
         </div>
-
     </div>
+ </div>
+  <div class="result-container">
+        <div class="row">
+            <div class="annul-result">
+                <h3>Annually</h3>
+                <div class="result-gross">
+                    <div >Gross</div>
+                    &euro;
+                    <div id="gross">"0"</div> ;
+                </div>
+                <div class="result-tax">
+                    <div>Tax</div>
+                    &euro;
+                    <div id="annualTax">0</div>
+                </div>
+                <div class="result-net">
+                    <div>Net</div>
+                    &euro;
+                    
+                </div>
+            </div>
+
+           <div class="monthly-result">
+                <h3>Monthly</h3>
+                <div class="result-gross">
+                    <div>Gross</div>
+                    &euro;
+                    <div id="monthlygross">0</div>
+                </div>
+                <div class="result-tax">
+                    <div>Tax</div>
+                    &euro;
+                    <div id="monthlyTax">0</div>
+                </div>
+                <div class="result-net">
+                    <div>Net</div>
+                    &euro;
+                    "0"
+                </div>
+            </div>
+        </div>
+       
+    </div> 
 </main>
 
     <script src="index.js"></script>
