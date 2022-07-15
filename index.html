@@ -17,7 +17,7 @@
  <div class="salary-input">
     <div class="choose-time">
      <div class="choose-annual">
-       <select>
+       <select id="sel">
          <option value="a">Annual</option>
          <option value="m">Monthly</option>
         </select>
@@ -48,17 +48,22 @@
                 <div class="result-gross">
                     <div >Gross</div>
                     &euro;
-                    <div id="gross">"0"</div> ;
+                    <div id="gross">0.00</div> ;
                 </div>
                 <div class="result-tax">
                     <div>Tax</div>
                     &euro;
-                    <div id="annualTax">0</div>
+                    <div id="annualTax">0.00</div>
+                </div>
+                <div class="result-insurance">
+                    <div>social Insurance</div>
+                    &euro;
+                    <div id="annualInsurance">0.00</div>
                 </div>
                 <div class="result-net">
                     <div>Net</div>
                     &euro;
-                    
+                    <div id="annualNet">0.00</div>
                 </div>
             </div>
 
@@ -67,17 +72,22 @@
                 <div class="result-gross">
                     <div>Gross</div>
                     &euro;
-                    <div id="monthlygross">0</div>
+                    <div id="monthlygross">0.00</div>
                 </div>
                 <div class="result-tax">
                     <div>Tax</div>
                     &euro;
-                    <div id="monthlyTax">0</div>
+                    <div id="monthlyTax">0.00</div> 
+                </div>
+                <div class="result-insurance">
+                    <div>social Insurance</div>
+                    &euro;
+                    <div id="monthlyInsurance">0.00</div>
                 </div>
                 <div class="result-net">
                     <div>Net</div>
                     &euro;
-                    "0"
+                    <div id="monthlyNet">0.00</div>
                 </div>
             </div>
         </div>
